@@ -17,8 +17,8 @@ class Person < ActiveRecord::Base
   #. Don't list attributes that exist in the db but should not be used
   #. (e.g. STI columns that don't apply to this model).
   attr_accessible :age,
+                  :birthday,
                   :name,
-                  :birthday
   # protected     admin
   #               state
 
