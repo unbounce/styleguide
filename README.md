@@ -494,10 +494,8 @@ strings.
     hash = { one: 1, two: 2, three: 3 }
     ```
 
-0. Avoid the use of mutable object as hash keys.
+0. Avoid the use of mutable objects as hash keys.
 
-0. Use the old hashrocket hash syntax instead of the new 1.9 syntax (even though it is nicer!).
-  We would eventually like to move towards the new syntax, but that's too much change for now.
 0. Use the new Ruby 1.9 has syntax whenever possible. For cases in which
    the hash keys cannot be symbolized, use the old syntax.
 
