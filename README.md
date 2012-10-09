@@ -393,6 +393,25 @@ at all.
     some_condition or do_something
     ```
 
+0. Favour `if` over `unless` for negative conditions with a block.
+
+    ```Ruby
+    # bad
+    unless condition
+      first_line_of_block
+      second_line_of_block
+    end
+
+    # good
+    if !condition
+      first_line_of_block
+      second_line_of_block
+    end
+
+  See rule _never use `unless` with `else`_ below.
+  Using `unless` with a block leaves a huge opening for adding a
+  seemingly inoccuous `else` in there.
+
 0. Never use `unless` with `else`. Rewrite these with the positive case first.
 
     ```Ruby
