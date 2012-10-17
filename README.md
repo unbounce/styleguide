@@ -738,6 +738,22 @@ strings.
   always use parentheses in the method invocation. For example, write
 `f((3 + 2) + 1)`.
 
+0. If the last parameter is a hash, don't use curly brackets around the arguments.
+
+    ```Ruby
+    # bad
+    do_something({
+      param1: value1,
+      param2: value2
+    })
+
+    # good
+    do_something(
+      param1: value1,
+      param2: value2
+    )
+    ```
+
 ##10. Exceptions
 
 0. Use `e` as the rescued variable:
