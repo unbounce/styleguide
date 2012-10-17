@@ -303,6 +303,8 @@ at all.
            end
     ```
 
+0. Use `when x then ...` for one-line conditions in case blocks.
+
 0. Never use `then` for multi-line `if/unless`.
 
     ```Ruby
@@ -347,8 +349,6 @@ at all.
     ```
 
 0. Never use `if x; ...`. Use the ternary operator instead.
-
-0. Use `when x then ...` for one-line cases.
 
 0. Never use `when x; ...`. See the previous rule.
 
