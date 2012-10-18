@@ -17,13 +17,15 @@
 
 ##1. Source Code Layout
 
-1. <a name="1.1" />Use `UTF-8` as the source file encoding.
+<a name="1.1" />
+1. Use `UTF-8` as the source file encoding.
 
+<a name="1.2" />
 2. Use two **spaces** per indentation level, no tabs.
 
-3. Leave no trailing whitespace of any kind.
+###3. Leave no trailing whitespace of any kind.
 
-4. Do not leave a blank line at the bottom of the file.
+####4. Do not leave a blank line at the bottom of the file.
 
 5. Use Unix-style line endings. (*BSD/Solaris/Linux/OSX users are covered by default,
   Windows users have to be extra careful.)
