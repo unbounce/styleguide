@@ -10,6 +10,8 @@
 #
 class Person < ActiveRecord::Base
 
+  # ----------------------------- Constants and Macros ----------------------------------
+
   #. Ordering is important. Group and order models as below.
 
   #. Whitelist all mass-assignable attributes, ordered alphabetically
@@ -52,9 +54,13 @@ class Person < ActiveRecord::Base
   scope :very_old, where("age > #{VERY_OLD}")
   scope :active, where(:state => 'active')
 
+  # --------------------------------- Class Methods -------------------------------------
+
   def self.kill_oldies
     very_old.destroy_all
   end
+
+  # -------------------------------- Instance Methods -----------------------------------
 
   #. Memoize expensive methods which are not expected to change over a request.
   #.
