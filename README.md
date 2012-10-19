@@ -37,7 +37,9 @@
     def frobnicate(value)
       ...
     end
-
+    <br/>
+    <br/>
+    <br/>
 
 
     def vibrato(pitch)
