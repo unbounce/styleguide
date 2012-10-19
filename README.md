@@ -30,6 +30,8 @@
 
 0. Keep lines 90 characters wide or less.
 
+0. Only use a single blank line to separate methods or other source code. If absolutely necessary in the short-term, use code banners; but do so only sparingly!
+
 ##2. Comments
 
 0. Write self-documenting code. If feel you need a comment, refactor the code until a comment feels like overkill. Then, ignore the rest of this section.
