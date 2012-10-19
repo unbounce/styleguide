@@ -32,6 +32,29 @@
 
 0. Only use a single blank line to separate methods or other source code. If absolutely necessary in the short-term, use code banners; but do so only sparingly!
 
+    ```Ruby
+    # bad
+    def frobnicate(value)
+      ...
+    end
+
+
+
+    def vibrato(pitch)
+      ...
+    end
+    ```
+    ```Ruby
+    # good
+    def frobnicate(value)
+      ...
+    end
+
+    def vibrato(pitch)
+      ...
+    end
+    ```
+
 ##2. Comments
 
 0. Write self-documenting code. If feel you need a comment, refactor the code until a comment feels like overkill. Then, ignore the rest of this section.
