@@ -531,30 +531,24 @@ strings.
 
 0. Use a single line for arrays and hashes if they will fit.
 
-0. Format multiline hashes and arrays by indenting two-spaces.
+0. Indent multiline collection data into semantic "chunks".
 
     ```Ruby
-    hash = {
-      name:             'peter',
-      professional:     'teacher',
-      favourite_color:  'green'
-    }
+    hash = { name: 'peter',
+             professional: 'teacher',
+             favourite_color: 'green' }
 
-    array = [
-      'Happy Sauce',
-      'Awesome people eating computers'
-    ]
+    array = [ 'Happy Sauce',
+              'Awesome people eating computers' ]
     ```
 
 0. You may optionally align hash values if it improves readability. Especially
     when there are many keys.
 
     ```Ruby
-    hash = {
-      name:             'peter',
-      professional:     'teacher',
-      favourite_color:  'green'
-    }
+    hash = { name:             'peter',
+             professional:     'teacher',
+             favourite_color:  'green' }
     ```
 
 0. Prefer `size` over `length` for getting the number of elements.
