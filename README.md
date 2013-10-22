@@ -28,7 +28,7 @@
 0. Use Unix-style line endings. (*BSD/Solaris/Linux/OSX users are covered by default,
   Windows users have to be extra careful.)
 
-0. Keep lines 90 characters wide or less.
+0. Keep lines 94 characters wide or less.
 
 ##2. Comments
 
